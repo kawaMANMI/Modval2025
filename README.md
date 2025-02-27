@@ -1,6 +1,6 @@
-# Comparison of SEI Zero-dimensional Models (in PyBaMM)
+# Comparing Common Zero-dimensional SEI Models Under Varied Conditions (in PyBaMM)
 
-This repository contains the analysis code and results for comparing [common zero-dimensional solid electrolyte interphase (SEI) models](https://github.com/mmsg-warwick/zero-dimension-comparison-SEI/tree/main) (limited mechanisms) in [PyBaMM](https://github.com/pybamm-team/PyBaMM) in lithium-ion batteries, focusing on the formation cycle and early cycles.
+This repository contains the analysis code and results for comparing [common zero-dimensional solid electrolyte interphase (SEI) models](https://github.com/mmsg-warwick/zero-dimension-comparison-SEI/tree/main) (limited mechanisms) in [PyBaMM](https://github.com/pybamm-team/PyBaMM) in lithium-ion batteries, focusing on the SEI growth (capacity fade) duirng charge vs discharge at different C-rate and different initial SOC.
 
 ## Overview
 
@@ -27,8 +27,8 @@ This code requires PyBaMM version 25.1.0 or newer. The analysis was performed us
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/kawaMANMI/PyBaMM-Conf-2025
-cd PyBaMM-Conf-2025
+git clone https://github.com/kawaMANMI/Modval2025
+cd Modval2025
 ```
 
 2. Create a virtual environment:
@@ -58,8 +58,8 @@ deactivate
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/kawaMANMI/PyBaMM-Conf-2025
-cd PyBaMM-Conf-2025
+git clone https://github.com/kawaMANMI/Modval2025
+cd Modval2025
 ```
 
 2. Create a virtual environment:
